@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <script src="scripts.js"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+  <div id="blur-area">
+    <div id="main" class="card">
+      <img id="star-design"src="images/icon-star.svg" alt="an orange star">
+      <h1 class="header">How did we do?</h1>
+
+      <p class="component-text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+      <ul id="numbers-container">
+        <li class="numbers numbers-hover">1</li>
+        <li class="numbers numbers-hover">2</li>
+        <li class="numbers numbers-hover">3</li>
+        <li class="numbers numbers-hover">4</li>
+        <li class="numbers numbers-hover">5</li>
+      </ul>
+      <button id="submit-button">SUBMIT</button>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  <div class="card thank-you-card">
+    <!-- Thank you state start -->
+    <img id="transaction-pic" src="images\illustration-thank-you.svg" alt="A transaction illustration">
+
+    <p id="rating">You rated X out of 5</p>
+
+    <h1 class="header">Thank you!</h1>
+
+    <p class="component-text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+
+    <button id="rate-again-btn">RATE AGAIN</button>
+
+    <!-- Thank you state end -->
+  </div>
+  
+
+</body>
+</html>
